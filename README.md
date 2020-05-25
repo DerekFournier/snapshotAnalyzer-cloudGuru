@@ -13,4 +13,8 @@ Uses the configuration file created by the aws calc_dist
 
 ## Running
 
-`pipenv run python src/getEC2Instances`
+`pipenv run python src/ec2Analyzer.py <command>
+<--project=PROJECT`
+
+*command* is list, start, stop
+*project* is optional
